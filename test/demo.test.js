@@ -11,3 +11,8 @@ test('JSON import has format and size checks',()=>{
  assert.match(html,/levels.includes/);
 });
 test('demo clearly disclaims secure access control',()=>assert.match(html,/not secure access control/i));
+
+test('guided viewer scenarios are available',()=>{
+ for(const id of ['scenario'])assert.match(html,new RegExp('id="'+id+'"'));
+ for(const name of ['recruiter','friend','stranger','self'])assert.match(html,new RegExp(name));
+});
