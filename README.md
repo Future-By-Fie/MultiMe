@@ -49,3 +49,20 @@ Developers, designers and commercial partners can open an issue with technical f
 ## Licensing
 
 Copyright © 2026 Future-by-Fie. No open-source license is granted yet. Public access to the repository does not imply permission to reuse the code. Contact the project owner about licensing or collaboration.
+
+
+## Try the interactive demo
+
+**No build, account, npm install, API keys or backend required.** The full browser demo is in [index.html](./index.html).
+
+1. Download this repository as a ZIP using **Code → Download ZIP** and extract it.
+2. Open `index.html` in any modern browser. Switch Work, Hobby and Personal; edit fields; compare Public, Connections and Only me views.
+3. All changes are in-memory and reset on refresh. This is a client-side visibility preview, **not** real authentication or server-enforced privacy.
+
+**Developer quick check:** With Node.js 20 or later installed, run `npm test` to execute the independent domain/audio unit tests. CI configuration lives in [GitHub Actions](./.github/workflows/ci.yml).
+
+**Online hosting:** GitHub Pages requires the repository owner to enable Pages and a successful deployment. Until then, the GitHub Pages URL may return 404; the source demo above remains available.
+
+### Build with us
+
+If you see a better implementation, please open an issue with a concrete proposal. This repository is a public concept showcase; public access does not grant a software reuse license. Discuss licensing before distributing derived work.
