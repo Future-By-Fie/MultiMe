@@ -24,3 +24,7 @@ Build a React UI consuming this domain model, then design a server-side authoriz
 3. Implement consented connections and contact-specific sharing rules.
 4. Design encrypted storage, account deletion, data export and GDPR workflows.
 5. Test mobile accessibility and real cross-context sharing journeys.
+
+## v0.4 guided scenarios
+
+The demo now offers recruiter (public Work), friend (Connections Hobby), stranger (public Personal), and self (private Personal) preview presets. These demonstrate context-specific presentation and field visibility, not actual identities or authenticated connections. A server must enforce authorization before any real user data is supported.
